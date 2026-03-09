@@ -201,6 +201,10 @@ Created by **Michel Costa**, co-founder of **[Brabaflow — AI-Native Agency](ht
 
 Brabaflow transforms companies into AI-First enterprises through diagnosis, training, and implementation of AI agents. Based in Alphaville, SP, Brazil.
 
+- [brabaflow.ai](https://www.brabaflow.ai/)
+- [Brabaflow on LinkedIn](https://www.linkedin.com/company/brabaflow)
+- [Michel Costa on LinkedIn](https://www.linkedin.com/in/sigamichelcosta)
+
 ## Contributing
 
 1. Fork the repository

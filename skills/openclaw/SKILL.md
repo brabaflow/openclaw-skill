@@ -11,7 +11,7 @@ trigger: >
   WhatsApp/Telegram/Discord bot setup via OpenClaw, OpenClaw CLI commands,
   OpenClaw gateway configuration, OpenClaw plugins, OpenClaw skills,
   OpenClaw deployment, or any topic covered by docs.openclaw.ai.
-author: Michel Costa, cofundador da Brabaflow - Agencia Nativa de IA (brabaflow.com)
+author: Michel Costa, cofundador da Brabaflow - Agência Nativa de IA (brabaflow.ai)
 source: docs.openclaw.ai (333 pages, verbatim extraction, 2026-03-09)
 ---
 
