@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+# OpenClaw Skill — Session start hook
+# Injects the skill context into the session so the agent knows
+# OpenClaw documentation is available.
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PLUGIN_ROOT="$(dirname "$SCRIPT_DIR")"
+SKILL_FILE="$PLUGIN_ROOT/skills/openclaw/SKILL.md"
+
+if [ ! -f "$SKILL_FILE" ]; then
+  echo '{"hookSpecificOutput":{}}'
+  exit 0
+fi
+
+# Read the skill file content and JSON-escape it
+SKILL_CONTENT=$(python3 -c "
+import json, sys
+with open(sys.argv[1], 'r') as f:
+    print(json.dumps(f.read()))
+" "$SKILL_FILE")
+
+# Output context for both Claude Code and Cursor formats
+cat <<EOF
+{
+  "hookSpecificOutput": {
+    "additionalContext": ${SKILL_CONTENT}
+  },
+  "additional_context": ${SKILL_CONTENT}
+}
+EOF

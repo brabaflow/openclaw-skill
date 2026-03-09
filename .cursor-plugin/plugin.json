@@ -1,0 +1,24 @@
+{
+  "name": "openclaw-skill",
+  "displayName": "OpenClaw Skill",
+  "description": "Complete OpenClaw documentation as a skill — 333 pages of verbatim official docs for gateway config, channels, providers, tools, CLI, and deployment",
+  "version": "1.0.0",
+  "author": {
+    "name": "Michel Costa",
+    "email": "michel@brabaflow.ai"
+  },
+  "homepage": "https://github.com/brabaflow/openclaw-skill",
+  "repository": "https://github.com/brabaflow/openclaw-skill",
+  "license": "MIT",
+  "keywords": [
+    "openclaw",
+    "gateway",
+    "whatsapp",
+    "telegram",
+    "discord",
+    "ai-agents",
+    "documentation"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
+}

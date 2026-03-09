@@ -1,0 +1,20 @@
+{
+  "name": "openclaw-skill-marketplace",
+  "description": "Marketplace for OpenClaw Skill — complete official documentation for coding agents",
+  "owner": {
+    "name": "Michel Costa",
+    "email": "michel@brabaflow.ai"
+  },
+  "plugins": [
+    {
+      "name": "openclaw-skill",
+      "description": "Complete OpenClaw documentation as a skill — 333 pages of verbatim official docs for gateway config, channels, providers, tools, CLI, and deployment",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "Michel Costa",
+        "email": "michel@brabaflow.ai"
+      }
+    }
+  ]
+}
